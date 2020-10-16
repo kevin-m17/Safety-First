@@ -20,6 +20,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     @IBOutlet weak var startStopBtn: UIButton!
     @IBOutlet weak var textView: UITextView!
     
+    // Credit to Soonin Coding Challenge for speech code
     private var speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "en-US")) //1
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
